@@ -1,0 +1,34 @@
+{
+  "name":"weinrephonegap",
+  "fullName":"Online Weinre debugger",
+  "version":"0.1.0",
+  "keywords": [
+       "debug",
+       "debugging",
+       "debuger",
+       "remote",
+       "jsconsole",
+       "console"
+   ],
+   "description":"Debug your apps remotely with debug.phonegap.com",
+   "joshfire":{
+    "images":{
+        "small":"marketing/image-small.png",
+        "big":"marketing/image-small.png"
+      },   
+      "hooks":["startfile"],
+      "options":{
+        "form":[{
+          "key":"token",
+          "type":"text"
+        }],
+      "schema":{
+        "token":{
+          "type":"string",
+          "title":"Token",
+          "description":"Go to http://debug.phonegap.com/client/#TOKEN to open the debugger"
+        }
+      }
+    }
+   }
+}
